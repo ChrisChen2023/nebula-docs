@@ -239,10 +239,21 @@ extra:
     release: 3.6.0
     branch: release-3.6
     tag: v3.6.0
+
   br:
     release: 3.6.0
     branch: release-3.6
     tag: v3.6.0
+
+  br_ent:
+    release: 3.7.0
+    tag: v3.7.0
+# zh.begin
+    name: 悦数备份&恢复
+# zh.end
+# en.begin
+    name: NebulaGraph Backup&Restore
+# en.end
   agent:
     release: 3.7.0
     tag: v3.7.0
@@ -481,6 +492,7 @@ nav:
       - Upgrade: 4.deployment-and-installation/3.upgrade-nebula-graph/upgrade-nebula-comm.md
       - Uninstall NebulaGraph: 4.deployment-and-installation/4.uninstall-nebula-graph.md
 
+
   - Configure and log:
       - Configurations:
           - Configurations: 5.configurations-and-logs/1.configurations/1.configurations.md
@@ -490,6 +502,15 @@ nav:
           - Kernel configurations: 5.configurations-and-logs/1.configurations/6.kernel-config.md
       - Log management:
           - Runtime logs: 5.configurations-and-logs/2.log-management/logs.md
+
+  - 备份与恢复:
+      - 悦数备份&恢复:
+          - 悦数备份&恢复概述: backup-and-restore/br-ent/1.br-ent-overview.md
+          - 安装: backup-and-restore/br-ent/2.install-tools.md
+          - 备份数据: backup-and-restore/br-ent/3.backup-data.md
+          - 恢复数据: backup-and-restore/br-ent/4.restore-data.md
+      - 快照: backup-and-restore/3.manage-snapshot.md
+
 
   - Monitor:
       - Query NebulaGraph metrics: 6.monitor-and-metrics/1.query-performance-metrics.md
@@ -864,6 +885,15 @@ nav:
         - 使用 BR 备份数据: backup-and-restore/nebula-br/3.br-backup-data.md
         - 使用 BR 恢复数据: backup-and-restore/nebula-br/4.br-restore-data.md
       - 快照: backup-and-restore/3.manage-snapshot.md
+
+  - Backup and restore:
+      - NebulaGraph Backup&Restore:
+          - What is Backup&Restore: backup-and-restore/br-ent/1.br-ent-overview.md
+          - Install Backup&Restore: backup-and-restore/br-ent/2.install-tools.md
+          - Back up data: backup-and-restore/br-ent/3.backup-data.md
+          - Restore data: backup-and-restore/br-ent/4.restore-data.md
+      - Manage snapshots: backup-and-restore/3.manage-snapshot.md
+
 
   - 同步与迁移:
       - 负载均衡: synchronization-and-migration/2.balance-syntax.md
