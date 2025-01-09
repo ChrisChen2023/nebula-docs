@@ -115,7 +115,7 @@ plugins:
   # image lightbox plugin（https://github.com/blueswen/mkdocs-glightbox#usage）
   - glightbox:  
       zoomable: true
-  - search # This is the original mkdocs search plugin. To use algolia search, comment out this plugin.
+# - search # This is the original mkdocs search plugin. To use algolia search, comment out this plugin.
   - macros:
 # zh.begin  
       include_dir: docs-2.0-zh/reuse/
@@ -317,9 +317,9 @@ extra:
     base100: 1.0.0
     branch: release-3.4
   console:
-    release: 3.6.0
-    branch: release-3.6
-    tag: v3.6.0
+    release: 3.8.0
+    branch: release-3.8
+    tag: v3.8.0
   br:
     release: 3.6.0
     branch: release-3.6
